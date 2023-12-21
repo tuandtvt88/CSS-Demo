@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selector</title>
+</head>
+<style>
+    nav li {
+        color: red ;
+    }
+    nav>ul {
+        background-color: lightblue;
+    }
+    h2+p {
+        font-style: italic;
+    }
+    h3~p {
+        font-weight: bold ;
+    }
+</style>
+<body>
+    <nav>
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+        </ul>
+    </nav>
+    <h2>title</h2>
+    <p>Paragraph 1</p>
+    <p>Paragraph 2</p>
+    <p>Paragraph 3</p>
+    <h3>Subtitle</h3>
+    <p>Paragraph 2</p>
+    <p>Paragraph 1</p>
+    <p>Paragraph 2</p>
+</body>
+</html>

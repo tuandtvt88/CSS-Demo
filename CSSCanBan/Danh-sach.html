@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Danh sách</title>
+</head>
+<body>
+    <style>
+        ul {
+            background: #ec0b0b;
+            padding: 10px;
+            width: 60px;
+            list-style-image: url('http://agilearn.vn/draftfile.php/263/user/draft/510120718/bullet_red%20_2.png');
+           list-style: square inside url("http://agilearn.vn/draftfile.php/263/user/draft/510120718/bullet_red%20_2.png");
+            }
+            ul.a{list-style-position: inside;}
+            ul.b{list-style-position:outside;}
+            ol {
+                background: #24d450;
+                padding: 1px;
+                width: 150px;
+            }
+            ol li {
+                background: #1c3fda;
+                width: 70px;
+                padding: 5px;
+                margin-left: 15px;
+            }
+            ul li {
+                background: #2cdf9a;
+                margin: 5px;
+            }
+    </style>
+    <p>VD về danh sách không có thứ tự</p>
+    <ul class="a">
+        <li>Coffe</li>
+        <li>Tea</li>
+        <li>Coca Cola</li>
+    </ul>
+    <ul class="b">
+        <li>Coffe</li>
+        <li>Tea</li>
+        <li>Coca cola</li>
+    </ul>
+    <p>VD về danh sách có thứ tự</p>
+    <ol class="c">
+        <li>Coffe</li>
+        <li>Tea</li>
+        <li>Coca cola</li>
+    </ol>
+    <ol class="d">
+        <li>Coffe</li>
+        <li>Tea</li>
+        <li>coca cola</li>
+    </ol>
+
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bảng trong CSS</title>
+</head>
+<body>
+    <style>
+        table {
+            border-collapse: collapse; /* gộp các đường viền thành 1 đường viền */
+            width: 50%;
+            text-align: center;
+            align-items: center;
+            margin: 0;
+        }
+        table,th, td {
+            border: 1px solid #000; /*Bo các đường viền trong bảng*/
+        }
+        th {
+            background-color: blue; /*màu cho bảng */
+            color: white;
+           height: 50px;
+        }
+        h2 {
+           text-align: left;
+        }
+        td {
+            height: 50px;
+            vertical-align: bottom; /*Căn chỉnh ô theo chiều dọc */
+        }
+        th, td {
+            padding: 15px; /*Để điều khiển khoảng cách giữa đường viền và nội dung bên trong một bảng*/
+        }
+        tr:nth-child(even) {background-color: green;} /* màu cho bảng */
+    </style>
+    <h2>Thêm đường viền cho bảng:</h2>
+    <table>
+        <tr>
+            <th>Họ đệm</th>
+            <th>Tên</th>
+        </tr>
+        <tr>
+            <td>Nguyễn khắc</td>
+            <td>Nhật</td>
+        </tr>
+        <tr>
+            <td>Nguyễn Thị</td>
+            <td>Phương</td>
+        </tr>
+    </table>
+</body>
+</html>
